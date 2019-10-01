@@ -1,0 +1,11 @@
+# github.com/deepestsleep/assignment
+language: node_js
+
+node_js:
+  - "10.9.0"
+
+cache: npm
+
+before_install:
+  - ls -la
+  
