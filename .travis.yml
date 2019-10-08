@@ -1,4 +1,4 @@
-# https://github.com/deepestsleep/assignment
+# https://github.com/deepestsleep/assignment 101165940
 language: node_js
 
 node_js:
@@ -8,3 +8,10 @@ cache: npm
 
 before_install:
   - ls -la
+  - mkdir dist
+  - cd dist
+  - ls
+  -ls -la
+
+install:
+  -ls -la
