@@ -7,11 +7,8 @@ node_js:
 cache: npm
 
 before_install:
-  - ls -la
-  - mkdir dist
-  - cd dist
-  - ls
-  -ls -la
+  - "npm config set spin false"
+  - npm i -g now
 
 install:
   -npm install
